@@ -18,6 +18,7 @@ require 'ice_nine/freezer/rubinius'
 require 'ice_nine/freezer/struct'
 require 'ice_nine/freezer/symbol'
 require 'ice_nine/freezer/true_class'
+require 'ice_nine/freezer/tempfile'
 
 require 'ice_nine/version'
 

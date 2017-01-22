@@ -246,7 +246,7 @@ shared_examples 'IceNine.deep_freeze' do
     end
   end
 
-  [0.0, 0, 0x7fffffffffffffff, true, false, nil, :symbol].each do |value|
+  [0.0, 0, 0x7fffffffffffffff, true, false, nil, :symbol, Tempfile.new].each do |value|
     context "with a #{value.class}" do
       let(:value) { value }
 
